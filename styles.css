@@ -36,7 +36,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; l
 h2 { margin-bottom: 0; font-size: clamp(34px, 3.5vw, 50px); letter-spacing: -.035em; }
 .section-note { color: var(--muted); font-size: 13px; white-space: nowrap; }
 .news-list { margin: 0; padding: 0; list-style: none; }
-.news-item { display: grid; grid-template-columns: 8rem minmax(0, 1fr); column-gap: 1.5rem; margin-bottom: 14px; color: var(--ink); font-size: 16px; line-height: 1.65; }
+.news-item { display: grid; grid-template-columns: 8rem minmax(0, 1fr); column-gap: 1.5rem; align-items: baseline; margin-bottom: 14px; color: var(--ink); font-size: 16px; line-height: 1.65; }
 .news-item:last-child { margin-bottom: 0; }
 .news-item a { color: var(--accent-dark); font-weight: 600; text-underline-offset: 3px; }
 .news-date { color: var(--accent-dark); font-size: 13px; font-weight: 700; white-space: nowrap; }
