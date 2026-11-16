@@ -36,11 +36,11 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; l
 h2 { margin-bottom: 0; font-size: clamp(34px, 3.5vw, 50px); letter-spacing: -.035em; }
 .section-note { color: var(--muted); font-size: 13px; white-space: nowrap; }
 .news-list { margin: 0; padding: 0; list-style: none; }
-.news-item { margin-bottom: 14px; color: var(--ink); font-size: 16px; line-height: 1.65; }
+.news-item { display: grid; grid-template-columns: 7rem 1.5rem minmax(0, 1fr); margin-bottom: 14px; color: var(--ink); font-size: 16px; line-height: 1.65; }
 .news-item:last-child { margin-bottom: 0; }
 .news-item a { color: var(--accent-dark); font-weight: 600; text-underline-offset: 3px; }
 .news-date { color: var(--accent-dark); font-size: 13px; font-weight: 700; white-space: nowrap; }
-.news-separator { margin: 0 10px; color: var(--accent); }
+.news-separator { color: var(--accent); }
 .about-section { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(50px, 10vw, 150px); padding-top: 120px; padding-bottom: 120px; }
 .about-label h2 { max-width: 450px; }
 .about-copy { padding-top: 34px; color: #476176; font-size: 18px; }
